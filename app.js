@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("App is running!");
+  res.send("App is running on aws!");
 });
 
 app.listen(8000, "0.0.0.0", () => {
